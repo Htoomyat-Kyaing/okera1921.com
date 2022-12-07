@@ -42,65 +42,62 @@
     font-size: 1.6rem;
     color: #000000;
     text-decoration: none;
-    padding: 0px 10px;
+    padding: 0px 20px;
   }
   .header_nav_list{
     display: flex;
     justify-content: space-between;
-    width: 50vw;
+    gap: 50px;
     align-items: center;
     padding: unset;
     font-size: 1.6rem;
     height: 50px;
     list-style: none;
+    margin-top: 30px;
+  }
+  .header_nav_list:last-child{
+    gap: 20px;
   }
   .header_nav_list_item a{
     color: #ffffff;
     text-decoration: none;
+    position: relative;
+    letter-spacing: 0.2em;
+    line-height: 1.9rem;
+  }
+  .header_nav_list_item a::before{
+    content: "";
+    font-family: 'Inknut Antiqua';
+    font-size: 1rem;
+    position: absolute;
+    transform:translateY(100%);
+    line-height: 1.2rem;
+    margin-top: 15px;
   }
   .header_nav_list_item:first-child a::before{
     content: "ABOUT";
-    font-family: 'Inknut Antiqua';
-    font-size: 1rem;
-    position: relative;
-    left: 69px;
-    top: 25px;
+    left: 30px;
   }
   .header_nav_list_item:nth-child(2) a::before{
     content: "FOOD";
-    font-family: 'Inknut Antiqua';
-    font-size: 1rem;
-    position: relative;
-    left: 40px;
-    top: 25px;
+    left: 4px;
   }
   .header_nav_list_item:nth-child(3) a::before{
     content: "PLAY";
-    font-family: 'Inknut Antiqua';
-    font-size: 1rem;
-    position: relative;
-    left: 31px;
-    top: 25px;
+    left: -4px;
   }
   .header_nav_list_item:nth-child(4) a::before{
     content: "NEWS";
-    font-family: 'Inknut Antiqua';
-    font-size: 1rem;
-    position: relative;
-    left: 50px;
-    top: 25px;
+    left: 13px;
   }
   .header_nav_list_item:nth-child(5) a::before{
     content: "ACCESS";
-    font-family: 'Inknut Antiqua';
-    font-size: 1rem;
-    position: relative;
-    left: 55px;
-    top: 25px;
+    left: 5px;
   }
   .header_nav_list_item img{
     width: 24px;
     height: 24px;
+    transform: translateY(50%);
   }
 
   /* container */
