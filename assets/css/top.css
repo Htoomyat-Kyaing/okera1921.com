@@ -1,6 +1,5 @@
+/* section_hero */
 .section_hero{
-    /* background-image: url(/assets/img/bg_section_hero.jpg);
-    background-size: cover; */
     width: 100%;
     height: 800px;
     display: flex;
@@ -8,6 +7,8 @@
     justify-content:center;
 }
 .section_hero_title_container{
+    position: absolute;
+    z-index: 99;
     display: flex;
     align-items: center;
 }
@@ -20,7 +21,7 @@
 .section_hero_title span{
     font-size: 8rem;
 }
-/* swiper */
+/* swiper css */
 .section_hero *{
     --swiper-theme-color: #ffffff;
 }
