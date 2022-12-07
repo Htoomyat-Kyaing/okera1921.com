@@ -11,12 +11,14 @@
     z-index: 99;
     display: flex;
     align-items: center;
+    user-select: none;
 }
 .section_hero_title{
     font-size: 5rem;
     color: #ffffff;
     line-height: 6rem;
     letter-spacing: 0.2em;
+    user-select: none;
 }
 .section_hero_title_logo{
     font-size: 8rem;
@@ -97,10 +99,6 @@
 .section_about_description p + p {
     margin-top: 25px;
 }
-/* .section_about_image{
-    position: relative;
-    left: 100px;
-} */
 
 /* btn_more */
 .btn_more{
