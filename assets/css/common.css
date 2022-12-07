@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    font-family:'Hina Mincho';
+  }
+
+  html{
+    font-size: 62.5%;
+  }
+
+  header{
+    position: absolute;
+    width: 100vw;
+    height: 225px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 999999;
+  }
+  .header_logo{
+    width: 80px;
+    height: 185px;
+  }
+  .header_logo_container{
+    margin: 40px 0px 0px 60px;
+  }
+  /* header_nav */
+  .header_nav{
+    margin: 0px 60px 0px 0px;
+  }
+  .header_nav_reserve{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+  }
+  .header_nav_reserve_btn{
+    width: 212px;
+    height: 40px;
+    background-color: #ffffff;
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+    color: #000000;
+    text-decoration: none;
+    padding: 0px 10px;
+  }
+  .header_nav_list{
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+    align-items: center;
+    padding: unset;
+    font-size: 1.6rem;
+    height: 50px;
+    list-style: none;
+  }
+  .header_nav_list_item a{
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .header_nav_list_item:first-child a::before{
+    content: "ABOUT";
+    font-family: 'Inknut Antiqua';
+    font-size: 1rem;
+    position: relative;
+    left: 69px;
+    top: 25px;
+  }
+  .header_nav_list_item:nth-child(2) a::before{
+    content: "FOOD";
+    font-family: 'Inknut Antiqua';
+    font-size: 1rem;
+    position: relative;
+    left: 40px;
+    top: 25px;
+  }
+  .header_nav_list_item:nth-child(3) a::before{
+    content: "PLAY";
+    font-family: 'Inknut Antiqua';
+    font-size: 1rem;
+    position: relative;
+    left: 31px;
+    top: 25px;
+  }
+  .header_nav_list_item:nth-child(4) a::before{
+    content: "NEWS";
+    font-family: 'Inknut Antiqua';
+    font-size: 1rem;
+    position: relative;
+    left: 50px;
+    top: 25px;
+  }
+  .header_nav_list_item:nth-child(5) a::before{
+    content: "ACCESS";
+    font-family: 'Inknut Antiqua';
+    font-size: 1rem;
+    position: relative;
+    left: 55px;
+    top: 25px;
+  }
+  .header_nav_list_item img{
+    width: 24px;
+    height: 24px;
+  }
