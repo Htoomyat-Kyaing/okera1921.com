@@ -122,6 +122,7 @@
   /* container */
   .container{
     width: calc(100vw - 400px);
+    height: 100%;
     margin: 0px auto;
     padding: 100px 0px;
   }
