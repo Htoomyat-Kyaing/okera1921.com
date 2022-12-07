@@ -39,10 +39,20 @@
     position: relative;
     display: flex;
     align-items: center;
+    justify-content: center;
     font-size: 1.6rem;
     color: #000000;
     text-decoration: none;
     padding: 0px 20px;
+  }
+  .header_nav_reserve_btn::after{
+    position: relative;
+    content: "RESERVE";
+    font-size: 1rem;
+    letter-spacing: 0.2em;
+    line-height: 1.2rem;
+    font-family: 'Inknut Antiqua';
+    margin: auto 0px auto 10px;
   }
   .header_nav_list{
     display: flex;
