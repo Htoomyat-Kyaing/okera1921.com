@@ -47,16 +47,13 @@
   .header_nav_list{
     display: flex;
     justify-content: space-between;
-    gap: 50px;
+    column-gap: 50px;
     align-items: center;
     padding: unset;
     font-size: 1.6rem;
     height: 50px;
     list-style: none;
     margin-top: 20px;
-  }
-  .header_nav_list:last-child{
-    gap: 20px;
   }
   .header_nav_list_item a{
     color: #ffffff;
