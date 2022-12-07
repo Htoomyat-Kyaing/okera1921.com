@@ -57,13 +57,18 @@
   .header_nav_list{
     display: flex;
     justify-content: space-between;
-    column-gap: 50px;
     align-items: center;
     padding: unset;
     font-size: 1.6rem;
     height: 50px;
     list-style: none;
     margin-top: 20px;
+  }
+  .header_nav_list_item{
+    margin-left: 50px;
+  }
+  .header_nav_list_item:nth-child(7){
+    margin-left: 20px;
   }
   .header_nav_list_item a{
     color: #ffffff;
