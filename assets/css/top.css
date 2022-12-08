@@ -191,22 +191,11 @@
     margin-top: 30px;
 }
 /* swiper css */
-.section_play .swiper-button-next {
-    left: 55%;
-    /* top: auto; */
-    /* bottom: -55px; */
-}
-.section_play .swiper-button-prev {
-    left: 45%;
-    /* top: auto; */
-    /* bottom: -55px; */
-}
 .section_play .swiper{
-    height: max-content;
     margin-top: 100px;
 }
-.section_play .swiper-slide:last-child{
-    margin-right: 0px;
+.section_play .swiper-slide{
+    width: 490px;
 }
 .section_play .swiper-slide img {
     display: block;
