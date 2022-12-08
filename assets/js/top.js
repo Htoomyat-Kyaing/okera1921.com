@@ -1,6 +1,9 @@
 var heroSwiper = new Swiper(".heroSwiper", {
   direction: "vertical",
   effect: "fade",
+  autoplay: {
+    delay: 5000,
+  },
   pagination: {
     el: ".swiper-pagination",
     clickable: true,

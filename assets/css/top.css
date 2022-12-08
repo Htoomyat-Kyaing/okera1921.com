@@ -48,10 +48,10 @@
 .section_hero .swiper-slide{
     background-color: #020202;
     color: #ffffff;
-    font-size: 2rem;
+    font-size: 4rem;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
   }
 .section_hero .swiper-slide img{
     width: 100%;
