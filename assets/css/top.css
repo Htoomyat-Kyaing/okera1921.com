@@ -66,7 +66,7 @@
 /* section_about */
 .section_about{
     width: 100%;
-    height: 712px;
+    height: max-content;
 }
 .section_about .container{
     display: flex;
@@ -84,7 +84,7 @@
 }
 .section_about_title_logo::before{
     position: absolute;
-    content: url("/assets/img/section_about_title_bg_icon.png");
+    content: url("/assets/img/section_about_title_logo.png");
     display: inline-block;
     transform: scale(0.5);
     left: -75px;
@@ -99,35 +99,54 @@
 .section_about_description p + p {
     margin-top: 25px;
 }
-
-/* btn_more */
-.btn_more{
-    border: solid 1px #000000;
-    font-family: 'Inknut Antiqua';
-    width: 100px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.section_about .btn_more{
     margin-top: 45px;
-}
-.btn_more a {
-    text-decoration: none;
-    color: #000000;
-}
-.btn_more:hover{
-    cursor: pointer;
 }
 
 /* section_food */
 .section_food{
     background-color: #ecdfd0;
     width: 100%;
-    height: 814px;
+    height: max-content;
 }
 .section_food_img_container{
     display: flex;
     align-items: flex-start;
     position: relative;
     left: -200px;
+}
+.section_food_container{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+}
+.section_food_title{
+    font-size: 4rem;
+    letter-spacing: 0.2em;
+    line-height: 4.8rem;
+}
+.section_food_title_logo{
+    position: relative;
+}
+.section_food_title_logo::before{
+    position: absolute;
+    content: url("/assets/img/section_food_title_logo.png");
+    display: inline-block;
+    transform: scale(0.5);
+    left: -70px;
+    top: -60px;
+}
+.section_food_description{
+    margin-top: 70px;
+    display: flex;
+    column-gap: 100px;
+    font-size: 1.4rem;
+    letter-spacing: 0.1em;
+    line-height: 2.8rem;
+}
+.section_food_description_paragraph{
+    width: 600px;
+}
+.section_food_description_paragraph p + p {
+    margin-top: 30px;
 }
