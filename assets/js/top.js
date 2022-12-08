@@ -1,5 +1,6 @@
 var heroSwiper = new Swiper(".heroSwiper", {
   direction: "vertical",
+  loop: true,
   effect: "fade",
   autoplay: {
     delay: 5000,
