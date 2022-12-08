@@ -132,8 +132,8 @@
     padding: 100px 0px;
   }
 
-  /* btn_more */
-.btn_more{
+  /* btn*/
+.btn{
   border: solid 1px #000000;
   font-family: 'Inknut Antiqua';
   font-size: 1rem;
@@ -143,10 +143,10 @@
   align-items: center;
   justify-content: center;
 }
-.btn_more a {
+.btn a {
   text-decoration: none;
   color: #000000;
 }
-.btn_more:hover{
+.btn:hover{
   cursor: pointer;
 }
