@@ -4,9 +4,21 @@
     font-family:'Hina Mincho';
   }
 
-  html{
+html{
     font-size: 10px;
   }
+
+  /* dark_mode */
+.dark_mode .header_nav_list_item a {
+  color: #000;
+}
+.dark_mode .btn {
+  background-color: #000;
+  color: #ffffff;
+}
+.dark_mode .btn *{
+  color: #ffffff;
+}
 
   header{
     position: absolute;
@@ -15,7 +27,6 @@
     display: flex;
     justify-content: space-between;
     z-index: 999999;
-    margin-bottom: 40px;
   }
   header .container{
     padding: 0px;

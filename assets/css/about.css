@@ -1,0 +1,19 @@
+header{
+    position: unset;
+}
+
+.section_hero{
+    background-image: url("/assets/img/about/bg_section_hero.jpg");
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.section_hero_title{
+    font-size: 5rem;
+    color: #ffffff;
+    line-height: 6rem;
+    letter-spacing: 0.2em;
+    user-select: none;
+}
