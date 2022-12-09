@@ -1,14 +1,14 @@
 /* section_hero */
 .section_hero{
     width: 100%;
-    height: 800px;
+    height: max-content;
     display: flex;
     align-items: center;
     justify-content:center;
 }
 .section_hero_title_container{
     position: absolute;
-    z-index: 99;
+    z-index: 999999;
     display: flex;
     align-items: center;
     user-select: none;
@@ -39,6 +39,7 @@
 }
 .section_hero .swiper-pagination-bullet {
     border: solid 1px #ffffff;
+    opacity: 1;
 }
 .section_hero .swiper{
     width: 100vw;
@@ -55,7 +56,7 @@
   }
 .section_hero .swiper-slide img{
     width: 100%;
-    height: 800px;
+    height: max-content;
     object-fit: cover;
 }
 
@@ -69,6 +70,13 @@
     align-items: flex-start;
     justify-content: space-between;
     gap: 100px;
+    width: 100vw;
+}
+.section_about_container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    margin-left: 200px;
 }
 .section_about_title{
     font-size: 4rem;
@@ -87,16 +95,11 @@
     top: -65px;
 }
 .section_about_description{
-    width: 500px;
-    margin-top: 60px;
     font-size: 1.4rem;
     line-height: 2.8rem;
 }
 .section_about_description p + p {
     margin-top: 25px;
-}
-.section_about .btn{
-    margin-top: 45px;
 }
 
 /* section_food */
@@ -105,14 +108,21 @@
     width: 100%;
     height: max-content;
 }
+.section_food .container{
+    width: 100vw;
+}
 .section_food_img_container{
     display: flex;
+    flex-direction: column;
+    column-gap: 0px;
     align-items: flex-start;
-    position: relative;
-    left: -200px;
+    margin-right: 200px;
+    height: 400px;
+    flex-wrap: wrap;
 }
 .section_food_container{
     margin-top: 70px;
+    margin-left: 200px;
     display: flex;
     flex-direction: column;
 }
@@ -133,7 +143,7 @@
     top: -60px;
 }
 .section_food_description{
-    margin-top: 70px;
+    margin-top: 60px;
     display: flex;
     column-gap: 100px;
     font-size: 1.4rem;
@@ -141,7 +151,7 @@
     line-height: 2.8rem;
 }
 .section_food_description_paragraph{
-    width: 600px;
+    width: 50%;
 }
 .section_food_description_paragraph p + p {
     margin-top: 30px;
@@ -153,10 +163,11 @@
     height: max-content;
 }
 .section_play .container{
-    padding-top: unset;
+    width: 100vw;
 }
 .section_play_container{
     margin-top: 70px;
+    margin-left: 200px;
     display: flex;
     flex-direction: column;
 }
@@ -185,7 +196,7 @@
     line-height: 2.8rem;
 }
 .section_play_description_paragraph{
-    width: 600px;
+    width: 50%;
 }
 .section_play_description_paragraph p + p {
     margin-top: 30px;
@@ -206,7 +217,6 @@
 }
 /* swiper css */
 .section_play .swiper{
-    margin-top: 100px;
     overflow: visible;
 }
 .section_play .swiper-slide{
@@ -247,7 +257,7 @@
     font-size: 4rem;
     letter-spacing: 0.2em;
     line-height: 4.8rem;
-    flex: 300px;
+    width: 20%;
 }
 .section_news_container{
     display: flex;
@@ -269,6 +279,7 @@
 .section_news_articles_container{
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 .section_news_article{
     padding-bottom: 30px;
@@ -301,10 +312,10 @@ aside{
     text-align: center;
 }
 .aside_btn_container {
-    padding: 0px 80px;
     margin-top: 100px;
     display: flex;
     gap: 40px;
+    justify-content: center;
 }
 .aside_btn_container li {
     list-style: none;
@@ -318,6 +329,7 @@ aside{
     font-size: 2rem;
     letter-spacing: 0.2em;
     line-height: 2.4rem;
+    border: #ffffff;
 }
 .aside_btn_container li a::after{
     margin-left: 10px;
