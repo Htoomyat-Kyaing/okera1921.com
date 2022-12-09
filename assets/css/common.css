@@ -30,13 +30,11 @@
   /* header_nav */
   .header_nav{
     margin: 0px 60px 0px 0px;
-  }
-  .header_nav_reserve{
     display: flex;
-    justify-content: flex-end;
-    position: relative;
+    flex-direction: column;
+    align-items: flex-end;
   }
-  .header_nav_reserve_btn{
+  .header_nav .btn{
     width: 212px;
     height: 40px;
     background-color: #ffffff;
@@ -49,8 +47,9 @@
     text-decoration: none;
     padding: 0px 20px;
   }
-  .header_nav_reserve_btn::after{
+  .header_nav .btn::after{
     position: relative;
+    top: 1px;
     content: "RESERVE";
     font-size: 1rem;
     letter-spacing: 0.2em;
