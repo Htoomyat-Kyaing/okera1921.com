@@ -319,11 +319,16 @@ aside{
     letter-spacing: 0.2em;
     line-height: 2.4rem;
 }
-.aside_btn_container a::after{
-    content: "RESERVE";
+.aside_btn_container li a::after{
     margin-left: 10px;
     font-size: 1.4rem;
     font-family: 'Inknut Antiqua';
     letter-spacing: 0.2em;
     line-height: 1.7rem; 
+}
+.aside_btn_container li:first-child a::after{
+    content: "RESERVE";
+}
+.aside_btn_container li:last-child a::after{
+    content: "ACCESS";
 }
