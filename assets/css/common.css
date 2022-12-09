@@ -164,6 +164,29 @@ main {
   cursor: pointer;
 }
 
+/* breadcrumb */
+.breadcrumb .container {
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+.breadcrumb_list {
+  display: flex;
+  font-size: 1.4rem;
+  letter-spacing: 0.1em;
+  line-height: 2.8rem;
+}
+.breadcrumb_list_item:first-child {
+  margin-left: 0px;
+}
+.breadcrumb_list_item:first-child::before {
+  content: "";
+  margin: 0px;
+}
+.breadcrumb_list_item::before {
+  content: ">";
+  margin: 0px 10px;
+}
+
 /* aside */
 aside {
   color: #ffffff;
