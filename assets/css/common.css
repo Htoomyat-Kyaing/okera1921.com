@@ -9,14 +9,14 @@ html{
   }
 
   /* dark_mode */
-.dark_mode .header_nav_list_item a {
+.dark_mode header a {
   color: #000;
 }
-.dark_mode .btn {
+.dark_mode header .btn {
   background-color: #000;
   color: #ffffff;
 }
-.dark_mode .btn *{
+.dark_mode header .btn *{
   color: #ffffff;
 }
 
