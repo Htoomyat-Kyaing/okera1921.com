@@ -167,7 +167,7 @@ html{
 /* aside */
 aside{
   color: #ffffff;
-  background-image: url("/assets/img/top/bg_aside.jpg");
+  background-image: url("/assets/img/common/bg_aside.jpg");
   width: 100vw;
   height: 400px;
   background-size: cover;
