@@ -29,7 +29,7 @@
 }
 .section_hero_title_logo::before{
     position: absolute;
-    content: url("/assets/img/section_hero_title_logo.png");
+    content: url("/assets/img/top/section_hero_title_logo.png");
     top: -65px;
     left: -25px;
 }
@@ -88,7 +88,7 @@
 }
 .section_about_title_logo::before{
     position: absolute;
-    content: url("/assets/img/section_about_title_logo.png");
+    content: url("/assets/img/top/section_about_title_logo.png");
     display: inline-block;
     transform: scale(0.5);
     left: -75px;
@@ -136,7 +136,7 @@
 }
 .section_food_title_logo::before{
     position: absolute;
-    content: url("/assets/img/section_food_title_logo.png");
+    content: url("/assets/img/top/section_food_title_logo.png");
     display: inline-block;
     transform: scale(0.5);
     left: -70px;
@@ -181,7 +181,7 @@
 }
 .section_play_title_logo::before{
     position: absolute;
-    content: url("/assets/img/section_play_title_logo.png");
+    content: url("/assets/img/top/section_play_title_logo.png");
     display: inline-block;
     transform: scale(0.5);
     left: -70px;
@@ -272,7 +272,7 @@
 }
 .section_news_title_logo::before{
     position: absolute;
-    content: url("/assets/img/section_news_title_logo.png");
+    content: url("/assets/img/top/section_news_title_logo.png");
     display: inline-block;
     transform: scale(0.5) translateX(-90%) translateY(-30%);
 }
@@ -292,6 +292,9 @@
 }
 .section_news_article dd{
     margin-top: 20px;
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+    letter-spacing: 0.1em;
 }
 .section_news .btn{
     margin-top: 40px;
@@ -300,7 +303,7 @@
 /* aside */
 aside{
     color: #ffffff;
-    background-image: url("/assets/img/bg_aside.jpg");
+    background-image: url("/assets/img/top/bg_aside.jpg");
     width: 100vw;
     height: 400px;
     background-size: cover;

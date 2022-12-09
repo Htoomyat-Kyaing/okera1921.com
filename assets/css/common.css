@@ -15,6 +15,7 @@
     display: flex;
     justify-content: space-between;
     z-index: 999999;
+    margin-bottom: 40px;
   }
   header .container{
     padding: 0px;
