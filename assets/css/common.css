@@ -1,14 +1,14 @@
 * {
-    box-sizing: border-box;
-    margin: 0px;
-    font-family:'Hina Mincho';
-  }
+  box-sizing: border-box;
+  margin: 0px;
+  font-family: "Hina Mincho";
+}
 
-html{
-    font-size: 10px;
-  }
+html {
+  font-size: 10px;
+}
 
-  /* dark_mode */
+/* dark_mode */
 .dark_mode header a {
   color: #000;
 }
@@ -16,164 +16,163 @@ html{
   background-color: #000;
   color: #ffffff;
 }
-.dark_mode header .btn *{
+.dark_mode header .btn * {
   color: #ffffff;
 }
 
-  header{
-    position: absolute;
-    width: 100vw;
-    height: max-content;
-    display: flex;
-    justify-content: space-between;
-    z-index: 999999;
-  }
-  header .container{
-    padding: 0px;
-    display: flex;
-    width: 100vw;
-    justify-content: space-between;
-    margin: 0px 60px;
-    padding-bottom: 40px;
-  }
-  /* header_logo */
-  .header_logo{
-    width: 80px;
-    height: 185px;
-  }
-  .header_logo_container{
-    margin-top: 40px;
-  }
-  /* header_nav */
-  .header_nav{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-  }
-  .header_nav .btn{
-    width: 212px;
-    height: 40px;
-    background-color: #ffffff;
-    font-size: 1.6rem;
-    border: #ffffff;
-  }
-  .header_nav .btn::after{
-    content: "RESERVE";
-    font-size: 1rem;
-    letter-spacing: 0.2em;
-    line-height: 1.2rem;
-    margin-left: 10px;
-  }
-  .header_nav_list{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 1.6rem;
-    height: max-content;
-    list-style: none;
-    margin-top: 20px;
-  }
-  .header_nav_list_item{
-    margin-left: 50px;
-  }
-  .header_nav_list_item:nth-child(7){
-    margin-left: 20px;
-  }
-  .header_nav_list_item a{
-    color: #ffffff;
-    text-decoration: none;
-    position: relative;
-    letter-spacing: 0.2em;
-    line-height: 1.9rem;
-  }
-  .header_nav_list_item a::before{
-    font-family: 'Inknut Antiqua';
-    font-size: 1rem;
-    position: absolute;
-    transform:translateY(100%);
-    line-height: 1.2rem;
-    margin-top: 15px;
-  }
-  .header_nav_list_item_furigana{
-    position: relative;
-    display: block;
-  }
-  .header_nav_list_item_furigana::before{
-    position: absolute;
-    content: "おけら";
-    font-size: 1rem;
-    transform: translateY(-80%);
-    line-height: 1.9rem;
-    letter-spacing: 0.2em;
-  }
-  .header_nav_list_item:first-child a::before{
-    content: "ABOUT";
-    left: 29px;
-  }
-  .header_nav_list_item:nth-child(2) a::before{
-    content: "FOOD";
-    left: 4px;
-  }
-  .header_nav_list_item:nth-child(3) a::before{
-    content: "PLAY";
-    left: -2px;
-  }
-  .header_nav_list_item:nth-child(4) a::before{
-    content: "NEWS";
-    left: 16px;
-  }
-  .header_nav_list_item:nth-child(5) a::before{
-    content: "ACCESS";
-    left: 3px;
-  }
-  .header_nav_list_item img{
-    width: 24px;
-    height: 24px;
-    transform: translateY(50%);
-  }
+header {
+  position: absolute;
+  width: 100vw;
+  height: max-content;
+  display: flex;
+  justify-content: space-between;
+  z-index: 999999;
+}
+header .container {
+  padding: 0px;
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  margin: 0px 60px;
+  padding-bottom: 40px;
+}
+/* header_logo */
+.header_logo {
+  width: 80px;
+  height: 185px;
+}
+.header_logo_container {
+  margin-top: 40px;
+}
+/* header_nav */
+.header_nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.header_nav .btn {
+  width: 212px;
+  height: 40px;
+  background-color: #ffffff;
+  font-size: 1.6rem;
+  border: #ffffff;
+}
+.header_nav .btn::after {
+  content: "RESERVE";
+  font-size: 1rem;
+  letter-spacing: 0.2em;
+  line-height: 1.2rem;
+  margin-left: 10px;
+}
+.header_nav_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.6rem;
+  height: max-content;
+  list-style: none;
+  margin-top: 20px;
+}
+.header_nav_list_item {
+  margin-left: 50px;
+}
+.header_nav_list_item:nth-child(7) {
+  margin-left: 20px;
+}
+.header_nav_list_item a {
+  color: #ffffff;
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 0.2em;
+  line-height: 1.9rem;
+}
+.header_nav_list_item a::before {
+  font-family: "Inknut Antiqua";
+  font-size: 1rem;
+  position: absolute;
+  transform: translateY(100%);
+  line-height: 1.2rem;
+  margin-top: 15px;
+}
+.header_nav_list_item_furigana {
+  position: relative;
+  display: block;
+}
+.header_nav_list_item_furigana::before {
+  position: absolute;
+  content: "おけら";
+  font-size: 1rem;
+  transform: translateY(-80%);
+  line-height: 1.9rem;
+  letter-spacing: 0.2em;
+}
+.header_nav_list_item:first-child a::before {
+  content: "ABOUT";
+  left: 29px;
+}
+.header_nav_list_item:nth-child(2) a::before {
+  content: "FOOD";
+  left: 4px;
+}
+.header_nav_list_item:nth-child(3) a::before {
+  content: "PLAY";
+  left: -2px;
+}
+.header_nav_list_item:nth-child(4) a::before {
+  content: "NEWS";
+  left: 16px;
+}
+.header_nav_list_item:nth-child(5) a::before {
+  content: "ACCESS";
+  left: 3px;
+}
+.header_nav_list_item img {
+  width: 24px;
+  height: 24px;
+  transform: translateY(50%);
+}
 
-  main{
-    width: 100vw;
-    overflow: hidden;
-  }
+main {
+  width: 100vw;
+  overflow: hidden;
+}
 
-  /* container */
-  .container{
-    width: calc(100vw - 400px);
-    height: 100%;
-    margin: 0px auto;
-    padding: 100px 0px;
-  }
+/* container */
+.container {
+  width: calc(100vw - 400px);
+  height: 100%;
+  margin: 0px auto;
+  padding: 100px 0px;
+}
 
-  /* btn */
-.btn{
+/* btn */
+.btn {
   border: solid 1px #000000;
-  font-family: 'Inknut Antiqua';
+  font-family: "Inknut Antiqua";
   font-size: 1rem;
   width: 100px;
   height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 .btn a {
   text-decoration: none;
   color: #000000;
 }
-.btn:hover{
+.btn:hover {
   cursor: pointer;
 }
 
 /* aside */
-aside{
+aside {
   color: #ffffff;
   background-image: url("/assets/img/common/bg_aside.jpg");
   width: 100vw;
   height: 400px;
   background-size: cover;
 }
-.aside_title{
+.aside_title {
   font-size: 4rem;
   letter-spacing: 0.2em;
   line-height: 4.8rem;
@@ -185,12 +184,12 @@ aside{
   gap: 40px;
   justify-content: center;
 }
-.aside_btn{
+.aside_btn {
   list-style: none;
   width: 400px;
   height: 80px;
 }
-.aside_btn .btn{
+.aside_btn .btn {
   background-color: #ffffff;
   width: 100%;
   height: 100%;
@@ -199,37 +198,37 @@ aside{
   line-height: 2.4rem;
   border: #ffffff;
 }
-.aside_btn a::after{
+.aside_btn a::after {
   margin-left: 10px;
   font-size: 1.4rem;
-  font-family: 'Inknut Antiqua';
+  font-family: "Inknut Antiqua";
   letter-spacing: 0.2em;
-  line-height: 1.7rem; 
+  line-height: 1.7rem;
 }
-.aside_btn:first-child a::after{
+.aside_btn:first-child a::after {
   content: "RESERVE";
 }
-.aside_btn:last-child a::after{
+.aside_btn:last-child a::after {
   content: "ACCESS";
 }
 
 /* footer */
-footer .container{
+footer .container {
   padding: 40px 0px;
 }
-.footer_nav_container{
+.footer_nav_container {
   display: flex;
   align-items: center;
   font-size: 1.4rem;
   letter-spacing: 0.2em;
   line-height: 1.7rem;
 }
-.footer_nav_list{
+.footer_nav_list {
   list-style: none;
   margin-left: 30px;
   display: flex;
 }
-.footer_nav_list_item{
+.footer_nav_list_item {
   border-right: solid 1px #000000;
   padding: 0px 10px;
 }
@@ -237,13 +236,13 @@ footer .container{
   color: #000000;
   text-decoration: none;
 }
-.footer_logo{
+.footer_logo {
   width: 147px;
   height: 60px;
 }
-.footer_copyright{
+.footer_copyright {
   margin-top: 10px;
-  font-family: 'Inknut Antiqua';
+  font-family: "Inknut Antiqua";
   font-size: 1rem;
   letter-spacing: 0.2rem;
   line-height: 1.2rem;
