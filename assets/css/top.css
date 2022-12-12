@@ -77,13 +77,16 @@
 .section_about_container {
   display: flex;
   flex-direction: column;
-  row-gap: 40px;
   margin-left: 200px;
+}
+.section_about_container .btn{
+  margin-top: 40px;
 }
 .section_about_title {
   font-size: 4rem;
-  line-height: 4.8rem;
+  line-height: 5.8rem;
   letter-spacing: 0.2em;
+  font-weight: 400;
 }
 .section_about_title_logo {
   position: relative;
@@ -98,10 +101,13 @@
 }
 .section_about_description {
   font-size: 1.4rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
   line-height: 2.8rem;
+  margin-top: 60px;
 }
 .section_about_description p + p {
-  margin-top: 25px;
+  margin-top: 28px;
 }
 
 /* section_food */
