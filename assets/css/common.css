@@ -64,9 +64,13 @@ header .container {
   line-height: 2.4rem;
 }
 .header_nav .btn::before{
-  content: url("/assets/img/common/arrow_on_btn.png");
-  /* 5px = 13px * 0.384   8px = 19px * 0.421*/
-  transform: scaleX(0.384) scaleY(0.421);
+  content: "";
+  display: inline-block;
+  width: 5px;
+  height: 8px;
+  background-image: url("/assets/img/common/arrow_on_btn.png");
+  background-size: contain;
+  vertical-align: middle;
 }
 .header_nav .btn::after {
   content: "RESERVE";
