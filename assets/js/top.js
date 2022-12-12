@@ -13,8 +13,9 @@ var heroSwiper = new Swiper(".heroSwiper", {
 
 var playSwiper = new Swiper(".playSwiper", {
         slidesPerView: 'auto',
+        centeredSlides:true,
         spaceBetween: 20,
-        initialSlide: 1,
+        initialSlide: 2,
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",

@@ -297,22 +297,28 @@
   color: #ffffff;
 }
 .section_play .swiper-button-next {
-  top: 102%;
-  left: 53%;
+  top: 100%;
+  left: 52%;
 }
 .section_play .swiper-button-next:after {
-  content: url("/assets/img/common/next_icon.png");
-  /* 12px = 27px * 0.444   20px = 43px * 0.465*/
-  transform: scaleX(0.444) scaleY(0.465);
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 20px;
+  background-image: url("/assets/img/common/next_icon.png");
+  background-size: contain;
 }
 .section_play .swiper-button-prev {
-  top: 102%;
-  left: 46%;
+  top: 100%;
+  left: 45%;
 }
 .section_play .swiper-button-prev:after {
-  content: url("/assets/img/common/prev_icon.png");
-  /* 12px = 27px * 0.444   20px = 43px * 0.465*/
-  transform: scaleX(0.444) scaleY(0.465);
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 20px;
+  background-image: url("/assets/img/common/prev_icon.png");
+  background-size: contain;
 }
 
 /* section_news */
