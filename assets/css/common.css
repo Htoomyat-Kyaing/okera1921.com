@@ -155,8 +155,8 @@ main {
 
 /* container */
 .container {
-  width: calc(100vw - 400px);
-  height: 100%;
+  display: block;
+  height: max-content;
   margin: 0px auto;
   padding: 100px 0px;
 }
@@ -204,11 +204,11 @@ main {
 }
 
 /* aside */
-aside {
+aside .container{
   color: #ffffff;
   background-image: url("/assets/img/common/bg_aside.jpg");
   width: 100vw;
-  height: 400px;
+  height: max-content;
   background-size: cover;
 }
 .aside_container{
@@ -229,6 +229,7 @@ aside {
   display: flex;
   gap: 40px;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .aside_btn {
   list-style: none;
@@ -274,7 +275,8 @@ aside {
 
 /* footer */
 footer .container {
-  padding: 40px 0px;
+  padding: 30px 0px;
+  margin: 0px 200px;
 }
 .footer_nav_container {
   display: flex;
@@ -287,6 +289,7 @@ footer .container {
   font-size: 1.4rem;
   letter-spacing: 0.2em;
   line-height: 2rem;
+  flex-wrap: wrap;
 }
 .footer_nav_list_item {
   border-right: solid 1px #000000;
