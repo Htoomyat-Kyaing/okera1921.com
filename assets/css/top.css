@@ -39,9 +39,10 @@
 .section_hero * {
   --swiper-theme-color: #ffffff;
 }
-.section_hero .swiper-pagination-bullet {
+.section_hero .swiper-pagination .swiper-pagination-bullet {
   border: solid 1px #ffffff;
   opacity: 1;
+  margin: 15px 0px;
 }
 .section_hero .swiper {
   width: 100vw;
