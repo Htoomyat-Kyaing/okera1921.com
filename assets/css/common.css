@@ -57,6 +57,10 @@ header .container {
   font-size: 1.6rem;
   border: #ffffff;
 }
+.header_nav .btn::before{
+  position: relative;
+  top: unset;
+}
 .header_nav .btn::after {
   content: "RESERVE";
   font-size: 1rem;
@@ -153,12 +157,22 @@ main {
   width: 100px;
   height: 40px;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  letter-spacing: 0.2em;
+  line-height: 1.2rem;
+}
+.btn::before{
+  content: url("/assets/img/common/arrow_on_btn.png");
+  /* 5px = 13px * 0.384   8px = 19px * 0.421*/
+  transform: scaleX(0.384) scaleY(0.421);
+  position: relative;
+  top: 1px;
 }
 .btn a {
   text-decoration: none;
   color: #000000;
+  margin-left: 5px;
 }
 .btn:hover {
   cursor: pointer;
@@ -220,6 +234,16 @@ aside {
   letter-spacing: 0.2em;
   line-height: 2.4rem;
   border: #ffffff;
+}
+.aside_btn .btn::before{
+  content: url("/assets/img/common/arrow_on_btn.png");
+  /* 10px = 13px * 0.769   8px = 19px * 0.842*/
+  transform: scaleX(0.769) scaleY(0.842);
+  position: relative;
+  top: 2px;
+}
+.aside_btn a{
+  margin-left: 10px;
 }
 .aside_btn a::after {
   margin-left: 10px;
