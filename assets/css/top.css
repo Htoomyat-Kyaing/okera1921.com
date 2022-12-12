@@ -64,7 +64,7 @@
 }
 .section_hero .swiper-slide img {
   width: 100%;
-  height: max-content;
+  min-height: 800px;
   object-fit: cover;
 }
 
