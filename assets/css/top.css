@@ -31,9 +31,14 @@
 }
 .section_hero_title_logo::before {
   position: absolute;
-  content: url("/assets/img/top/section_hero_title_logo.png");
-  top: -65px;
-  left: -25px;
+  content: "";
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  background-image: url("/assets/img/top/section_hero_title_logo.png");
+  background-size: contain;
+  top: -60px;
+  left: -35px;
 }
 /* swiper css */
 .section_hero * {
