@@ -154,3 +154,101 @@ header .header_nav .btn::before{
   position: relative;
   top: 1px;
 }
+
+/* section_four */
+.section_four {
+  width: 100%;
+  height: max-content;
+}
+.section_four .container {
+  width: 100vw;
+  padding-bottom: 0px;
+  padding-top: 60px;
+}
+.section_four_img_container{
+  display: flex;
+  gap: 35px;
+  margin: 0px 200px;
+  margin-top: 60px;
+}
+.section_four_img_item img{
+  width: 310px;
+  height: 233px;
+}
+.section_four_title {
+  font-size: 4rem;
+  line-height: 4.8rem;
+  letter-spacing: 0.2em;
+  margin: 0px 200px;
+}
+.section_four_contents .container{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 60px;
+}
+.section_four_content_item{
+  display: flex;
+  margin: 0px 200px;
+  font-size: 1.4rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  line-height: 2.8rem;
+}
+.section_four_content_item p:nth-child(1){
+  width: 30%;
+  border-bottom: solid 1px #000000;
+}
+.section_four_content_item p:nth-child(2){
+  border-bottom: solid 1px #CCCCCC;
+  padding-left: 10px;
+}
+/* swiper css */
+.section_four .swiper {
+  overflow: visible;
+  margin-top: 60px;
+}
+.section_four .swiper-slide {
+  width: 490px;
+  list-style-type: none;
+  font-size: 1.8rem;
+  letter-spacing: 0.1em;
+  line-height: 2.8rem;
+}
+.section_four .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.section_four .swiper-slide p {
+  position: relative;
+  left: 20px;
+  right: auto;
+  bottom: 50px;
+  top: auto;
+  color: #ffffff;
+}
+.section_four .swiper-button-next {
+  top: 100%;
+  left: 53%;
+}
+.section_four .swiper-button-next:after {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 20px;
+  background-image: url("/assets/img/common/next_icon.png");
+  background-size: contain;
+}
+.section_four .swiper-button-prev {
+  top: 100%;
+  left: 47%;
+}
+.section_four .swiper-button-prev:after {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 20px;
+  background-image: url("/assets/img/common/prev_icon.png");
+  background-size: contain;
+}
