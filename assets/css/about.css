@@ -1,6 +1,9 @@
 header {
   position: unset;
 }
+header .header_nav .btn::before{
+  background-image: url("/assets/img/common/arrow_on_btn_dark.png");
+}
 
 /* .section_hero */
 .section_hero {
@@ -23,6 +26,7 @@ header {
 .section_one .container {
   padding-bottom: 0px;
   padding-top: 60px;
+  margin: 0px 200px;
 }
 .section_one_container {
   display: flex;
@@ -58,6 +62,7 @@ header {
 .section_two .container {
   padding-bottom: 0px;
   padding-top: 60px;
+  margin: 0px 200px;
 }
 .section_two_container {
   display: flex;

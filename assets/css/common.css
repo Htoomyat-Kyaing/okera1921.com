@@ -184,6 +184,7 @@ main {
 .breadcrumb .container {
   padding-top: 20px;
   padding-bottom: 0px;
+  margin: 0px 200px;
 }
 .breadcrumb_list {
   display: flex;
