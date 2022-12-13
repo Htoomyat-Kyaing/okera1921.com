@@ -294,7 +294,7 @@
 }
 .section_play .swiper-slide {
   width: 490px;
-  left: -263px;
+  left: -242px;
   list-style-type: none;
   font-size: 1.8rem;
   letter-spacing: 0.1em;
@@ -316,7 +316,7 @@
 }
 .section_play .swiper-button-next {
   top: 100%;
-  left: 52%;
+  left: 53%;
 }
 .section_play .swiper-button-next:after {
   content: "";
@@ -328,7 +328,7 @@
 }
 .section_play .swiper-button-prev {
   top: 100%;
-  left: 45%;
+  left: 47%;
 }
 .section_play .swiper-button-prev:after {
   content: "";
