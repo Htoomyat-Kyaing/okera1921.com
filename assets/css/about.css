@@ -16,9 +16,10 @@ header .header_nav .btn::before{
 }
 .section_hero_title {
   font-size: 5rem;
-  color: #ffffff;
-  line-height: 6rem;
+  font-weight: 400;
   letter-spacing: 0.2em;
+  line-height: 7.2rem;
+  color: #ffffff;
   user-select: none;
 }
 
@@ -35,7 +36,8 @@ header .header_nav .btn::before{
 }
 .section_one_title {
   font-size: 4rem;
-  line-height: 4.8rem;
+  font-weight: 400;
+  line-height: 5.8rem;
   letter-spacing: 0.2em;
 }
 .section_one_title_logo {
@@ -51,11 +53,12 @@ header .header_nav .btn::before{
 }
 .section_one_description {
   font-size: 1.4rem;
+  font-weight: 400;
   letter-spacing: 0.1em;
   line-height: 2.8rem;
 }
 .section_one_description p + p {
-  margin-top: 25px;
+  margin-top: 28px;
 }
 
 /* section_two */
@@ -71,7 +74,8 @@ header .header_nav .btn::before{
 }
 .section_two_title {
   font-size: 4rem;
-  line-height: 4.8rem;
+  font-weight: 400;
+  line-height: 5.8rem;
   letter-spacing: 0.2em;
 }
 .section_two_title_logo {
@@ -87,11 +91,12 @@ header .header_nav .btn::before{
 }
 .section_two_description {
   font-size: 1.4rem;
+  font-weight: 400;
   letter-spacing: 0.1em;
   line-height: 2.8rem;
 }
 .section_two_description p + p {
-  margin-top: 25px;
+  margin-top: 28px;
 }
 
 /* section_three */
@@ -101,11 +106,13 @@ header .header_nav .btn::before{
   margin: 0px 200px;
 }
 .section_three_title {
-  font-size: 4rem;
-  line-height: 4.8rem;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 4.4rem;
   letter-spacing: 0.2em;
   display: block;
   border-bottom: solid 1px;
+  padding-bottom: 5px;
 }
 .section_three_title::after{
   display: block;
@@ -114,7 +121,7 @@ header .header_nav .btn::before{
   height: 1px;
   background: black;
   position: relative;
-  top: 5px;
+  top: 10px;
   left: 0;
 }
 .section_three_container {
@@ -161,51 +168,63 @@ header .header_nav .btn::before{
   height: max-content;
 }
 .section_four .container {
-  width: 100vw;
   padding-bottom: 0px;
-  padding-top: 60px;
+  padding-top: 100px;
+  margin: 0px 200px;
 }
 .section_four_img_container{
   display: flex;
   gap: 35px;
-  margin: 0px 200px;
   margin-top: 60px;
+}
+.section_four_img_item p {
+  font-size: 1.4rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  line-height: 2.8rem;
 }
 .section_four_img_item img{
   width: 310px;
   height: 233px;
 }
 .section_four_title {
-  font-size: 4rem;
-  line-height: 4.8rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 2.9rem;
   letter-spacing: 0.2em;
-  margin: 0px 200px;
 }
 .section_four_contents .container{
   display: flex;
   flex-direction: column;
-  padding-bottom: 60px;
+  padding-bottom: 100px;
 }
 .section_four_content_item{
   display: flex;
-  margin: 0px 200px;
   font-size: 1.4rem;
   font-weight: 400;
   letter-spacing: 0.1em;
   line-height: 2.8rem;
+}
+.section_four_content_item p{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.section_four_content_item:first-child p{
+  padding-top: 0px;
 }
 .section_four_content_item p:nth-child(1){
   width: 30%;
   border-bottom: solid 1px #000000;
 }
 .section_four_content_item p:nth-child(2){
+  flex:1;
   border-bottom: solid 1px #CCCCCC;
-  padding-left: 10px;
+  padding-left: 20px;
 }
 /* swiper css */
 .section_four .swiper {
   overflow: visible;
-  margin-top: 60px;
+  margin-top: 100px;
 }
 .section_four .swiper-slide {
   width: 490px;
@@ -227,6 +246,10 @@ header .header_nav .btn::before{
   bottom: 50px;
   top: auto;
   color: #ffffff;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  letter-spacing: 0.1em;
+  font-weight: 400;
 }
 .section_four .swiper-button-next {
   top: 100%;

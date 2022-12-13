@@ -155,6 +155,7 @@ main {
 
 /* container */
 .container {
+  min-width: 1000px;
   display: block;
   height: max-content;
   margin: 0px auto;
@@ -189,11 +190,12 @@ main {
 .breadcrumb_list {
   display: flex;
   font-size: 1.4rem;
+  font-weight: 400;
   letter-spacing: 0.1em;
   line-height: 2.8rem;
 }
 .breadcrumb_list_item:first-child {
-  margin-left: 0px;
+  margin-left: 0px;text-decoration: underline;
 }
 .breadcrumb_list_item:first-child::before {
   content: "";
