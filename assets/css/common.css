@@ -1,11 +1,14 @@
 * {
   box-sizing: border-box;
-  margin: 0px;
-  font-family: "Hina Mincho";
 }
 
 html {
-  font-size: 10px;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1rem;
+  font-family: "Hina Mincho", serif;
 }
 
 /* dark_mode */
@@ -313,6 +316,6 @@ footer .container {
 .footer_copyright {
   font-family: "Inknut Antiqua";
   font-size: 1rem;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.2em;
   line-height: 2.6rem;
 }
