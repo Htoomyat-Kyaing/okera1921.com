@@ -108,6 +108,7 @@
   font-weight: 400;
   letter-spacing: 0.2em;
   line-height: 2.6rem;
+  font-family: "Inknut Antiqua",serif;
 }
 .section_about_container .btn::before{
   content: "";
@@ -115,7 +116,7 @@
   width: 5px;
   height: 8px;
   background-image: url("/assets/img/common/arrow_on_btn.png");
-  background-size: contain;
+  background-size: cover;
   vertical-align: middle;
   position: relative;
   top: 1px;
@@ -205,6 +206,7 @@
   font-weight: 400;
   letter-spacing: 0.2em;
   line-height: 2.6rem;
+  font-family: "Inknut Antiqua",serif;
 }
 .section_food_container .btn::before{
   content: "";
@@ -212,7 +214,7 @@
   width: 5px;
   height: 8px;
   background-image: url("/assets/img/common/arrow_on_btn.png");
-  background-size: contain;
+  background-size: cover;
   vertical-align: middle;
   position: relative;
   top: 1px;
@@ -243,6 +245,7 @@
   font-weight: 400;
   letter-spacing: 0.2em;
   line-height: 2.6rem;
+  font-family: "Inknut Antiqua",serif;
 }
 .section_play_container .btn::before{
   content: "";
@@ -250,7 +253,7 @@
   width: 5px;
   height: 8px;
   background-image: url("/assets/img/common/arrow_on_btn.png");
-  background-size: contain;
+  background-size: cover;
   vertical-align: middle;
   position: relative;
   top: 1px;
@@ -382,7 +385,7 @@
   border-bottom: solid 1px;
 }
 .section_news_article dt {
-  font-family: "Inknut Antiqua";
+  font-family: "Inknut Antiqua", serif;;
   font-size: 1.4rem;
   font-weight: 400;
   letter-spacing: 0.1em;
@@ -401,6 +404,7 @@
   font-weight: 400;
   letter-spacing: 0.2em;
   line-height: 2.6rem;
+  font-family: "Inknut Antiqua",serif;
 }
 .section_news_container .btn::before{
   content: "";
@@ -408,7 +412,7 @@
   width: 5px;
   height: 8px;
   background-image: url("/assets/img/common/arrow_on_btn.png");
-  background-size: contain;
+  background-size: cover;
   vertical-align: middle;
   position: relative;
   top: 1px;
