@@ -27,7 +27,8 @@ header .header_nav .btn::before{
 .section_one .container {
   padding-bottom: 0px;
   padding-top: 60px;
-  margin: 0px 200px;
+  max-width: 1000px;
+  margin: 0px auto;
 }
 .section_one_container {
   display: flex;
@@ -65,7 +66,8 @@ header .header_nav .btn::before{
 .section_two .container {
   padding-bottom: 0px;
   padding-top: 60px;
-  margin: 0px 200px;
+  max-width: 1000px;
+  margin: 0px auto;
 }
 .section_two_container {
   display: flex;
@@ -103,7 +105,8 @@ header .header_nav .btn::before{
 .section_three .container{
   padding-bottom: 0px;
   padding-top: 60px;
-  margin: 0px 200px;
+  max-width: 1000px;
+  margin: 0px auto;
 }
 .section_three_title {
   font-size: 3rem;
@@ -170,7 +173,8 @@ header .header_nav .btn::before{
 .section_four .container {
   padding-bottom: 0px;
   padding-top: 100px;
-  margin: 0px 200px;
+  max-width: 1000px;
+  margin: 0px auto;
 }
 .section_four_img_container{
   display: flex;
@@ -197,6 +201,8 @@ header .header_nav .btn::before{
   display: flex;
   flex-direction: column;
   padding-bottom: 100px;
+  max-width: 1000px;
+  margin: 0px auto;
 }
 .section_four_content_item{
   display: flex;
