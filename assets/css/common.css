@@ -11,6 +11,16 @@ body {
   font-family: "Hina Mincho", serif;
 }
 
+a,
+a img {
+    color: inherit;
+    text-decoration: none;
+    transition: color .3s ease, background .3s ease, opacity .3s ease;
+}
+a:hover {
+    opacity: .7;
+}
+
 /* dark_mode */
 .dark_mode header a {
   color: #000;
@@ -61,7 +71,7 @@ header .container {
   font-weight: 400;
   letter-spacing: 0.2rem;
 }
-.header_nav .btn a {
+.header_nav .btn span {
   margin-left: 10px;
   font-size: 1.6rem;
   line-height: 2.4rem;
@@ -175,7 +185,7 @@ main {
   justify-content: center;
   align-items: center;
 }
-.btn a {
+.btn span {
   text-decoration: none;
   color: #000000;
   margin-left: 10px;
@@ -264,20 +274,20 @@ aside .container {
   position: relative;
   top: 2px;
 }
-.aside_btn a {
+.aside_btn span {
   margin-left: 10px;
 }
-.aside_btn a::after {
+.aside_btn span::after {
   margin-left: 10px;
   font-size: 1.4rem;
   font-family: "Inknut Antiqua", serif;
   letter-spacing: 0.2em;
   line-height: 1.7rem;
 }
-.aside_btn:first-child a::after {
+.aside_btn:first-child span::after {
   content: "RESERVE";
 }
-.aside_btn:last-child a::after {
+.aside_btn:last-child span::after {
   content: "ACCESS";
 }
 
