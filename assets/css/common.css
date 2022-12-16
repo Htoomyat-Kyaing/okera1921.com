@@ -326,8 +326,8 @@ footer .container {
 /* top-link */
 .top-link {
   position: fixed;
-  right: 15px;
-  bottom: 15px;
+  right: 60px;
+  bottom: 60px;
 
   background-color: rgb(216, 204, 204);
   padding: 0;
@@ -338,11 +338,13 @@ footer .container {
     0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
 
   transition: transform 0.3s ease-in-out;
+
+  z-index: 999;
 }
 
-.top-link svg {
-  height: 2.25rem;
-  width: auto;
+.top-link img {
+  width: 50px;
+  height: 50px;
 }
 
 a[aria-hidden="true"] {
