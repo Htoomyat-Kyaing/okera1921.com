@@ -13,6 +13,7 @@ header .header_nav .btn::before{
   display: flex;
   align-items: center;
   justify-content: center;
+  background-size: cover;
 }
 .section_hero_title {
   font-size: 5rem;
