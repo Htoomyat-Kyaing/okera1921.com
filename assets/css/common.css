@@ -61,12 +61,12 @@ header .container {
   font-weight: 400;
   letter-spacing: 0.2rem;
 }
-.header_nav .btn a{
+.header_nav .btn a {
   margin-left: 10px;
   font-size: 1.6rem;
   line-height: 2.4rem;
 }
-.header_nav .btn::before{
+.header_nav .btn::before {
   content: "";
   display: inline-block;
   width: 5px;
@@ -80,7 +80,7 @@ header .container {
   font-size: 1rem;
   line-height: 2.6rem;
   margin-left: 10px;
-  font-family: "Inknut Antiqua",serif;
+  font-family: "Inknut Antiqua", serif;
 }
 .header_nav_list {
   display: flex;
@@ -106,7 +106,7 @@ header .container {
   font-weight: 400;
 }
 .header_nav_list_item a::before {
-  font-family: "Inknut Antiqua", serif;;
+  font-family: "Inknut Antiqua", serif;
   font-size: 1rem;
   position: absolute;
   transform: translateY(100%);
@@ -198,7 +198,8 @@ main {
   line-height: 2.8rem;
 }
 .breadcrumb_list_item:first-child {
-  margin-left: 0px;text-decoration: underline;
+  margin-left: 0px;
+  text-decoration: underline;
 }
 .breadcrumb_list_item:first-child::before {
   content: "";
@@ -210,14 +211,14 @@ main {
 }
 
 /* aside */
-aside .container{
+aside .container {
   color: #ffffff;
   background-image: url("/assets/img/common/bg_aside.jpg");
   width: 100vw;
   height: max-content;
   background-size: cover;
 }
-.aside_container{
+.aside_container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -251,7 +252,7 @@ aside .container{
   line-height: 2.4rem;
   border: #ffffff;
 }
-.aside_btn .btn::before{
+.aside_btn .btn::before {
   content: "";
   display: inline-block;
   width: 10px;
@@ -262,7 +263,7 @@ aside .container{
   position: relative;
   top: 2px;
 }
-.aside_btn a{
+.aside_btn a {
   margin-left: 10px;
 }
 .aside_btn a::after {
@@ -283,6 +284,7 @@ aside .container{
 footer .container {
   padding: 30px 0px;
   margin: 0px 200px;
+  width: 100vw;
 }
 .footer_nav_container {
   display: flex;
@@ -302,7 +304,7 @@ footer .container {
   padding-left: 10px;
   padding-right: 10px;
 }
-.footer_nav_list_item:first-child{
+.footer_nav_list_item:first-child {
   padding-left: 0px;
 }
 .footer_nav_list_item a {
@@ -314,7 +316,7 @@ footer .container {
   height: 60px;
 }
 .footer_copyright {
-  font-family: "Inknut Antiqua", serif;;
+  font-family: "Inknut Antiqua", serif;
   font-size: 1rem;
   letter-spacing: 0.2em;
   line-height: 2.6rem;
